@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    background-color: #fff;
+    color: #082050;
+    padding: 0.5rem 0.25rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.show {
+    visibility: visible;
+}
+
+.hide {
+    /* visibility: hidden; */
+    display: none;
+}
+
+.toggleBtn {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #082050;
+    cursor: pointer;
+}
